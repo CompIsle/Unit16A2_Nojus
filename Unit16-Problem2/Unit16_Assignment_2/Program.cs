@@ -14,7 +14,7 @@ namespace U16A2Library
         static void Main(string[] args)
         {
             string filePath = "U16A2Task2Data.csv";
-            string newFilePath = "BooksCode.csv";
+            string newFilePath = "BookArray.csv";
 
             using (var reader = new StreamReader(filePath))
             using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
